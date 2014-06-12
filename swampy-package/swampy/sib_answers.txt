@@ -1,15 +1,15 @@
 # Text answers from Week 0
 
-# Name:
+# Name:Yan Olshevskyy
 
 
 
 Explain what each of the following lines does. Use the terminology you learned from the book (or Google)
 	
-	from TurtleWorld import *
-	world = TurtleWorld()
-	bob = Turtle()
-	wait_for_user()
+	from TurtleWorld import * #imports TurtleWorld library
+	world = TurtleWorld() #creates instance of TurtleWorld class
+	bob = Turtle() # creates an instance of Turtle class
+	wait_for_user() #waits for user interaction 
 
 Answer:
 
@@ -21,13 +21,20 @@ Answer:
 These questions pertain to the program you wrote in Week0.
 
 -- What are the arguments of polygon()?  What type is each argument?
-Answer:
+Answer:turtle-class 'TurtleWorld.Turtle'
+length- can be float or int
+n- is int
+
 
 -- What two turtle functions did you use to draw the sides of the polygon?
-Answer:
+Answer:fd and rt
 
 -- What are the arguments for polyline?  What type is each argument?
-Answer:
+Answer:in my case it is lyne function,
+turtle- which is type turtle
+n- int
+s_length- which can be float or int
+s_angle-which is float ot int
 
 
 
